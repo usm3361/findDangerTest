@@ -50,4 +50,3 @@ export async function getwordDangerous() {
 
 
 const wordDangerous = ["death", "knife", "bomb", "attack"];
-getwordDangerous()
