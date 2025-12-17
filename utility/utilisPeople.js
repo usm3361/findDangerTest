@@ -15,5 +15,3 @@ function writePeopleJson(data) {
     console.log("JSON file created successfully!");
   });
 }
-
-writePeopleJson(await getPeopleList());

@@ -45,20 +45,7 @@ export async function SearchPeoplebyAge(age) {
 export async function getwordDangerous(content) {
     const arreyObjOftrans = await readFileTransJSON();
     
-    const arrayTransOfFounds = [];
-    for (const trans of arreyObjOftrans) {
-        for (const word of trans)
-            if (word.toLowerCase() === content) {
-                arrayTransOfFounds.push(people);
-            }
-        }
-        if (arrayPeopleByNameOfFounds.length > 0) {
-    console.log(arrayPeopleByNameOfFounds);
-} else {
-    console.log("person was not found");
-}
-}
+   }
 
 
 const wordDangerous = ["death", "knife", "bomb", "attack"];
-await getwordDangerous(wordDangerous)

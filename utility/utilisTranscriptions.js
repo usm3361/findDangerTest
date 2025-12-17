@@ -17,5 +17,3 @@ function writeTranscriptionsJson(data) {
     console.log("JSON file created successfully!");
   });
 }
-
-writeTranscriptionsJson(await getTranscriptionsList());
