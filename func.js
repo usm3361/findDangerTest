@@ -27,7 +27,7 @@ export async function SearchPeoplebyName(name) {
   }
 }
 export async function SearchPeoplebyAge(age) {
-  const arreyObjOfPeople = await readFileJSON();
+  const arreyObjOfPeople = await readFilePeopleJSON();
 
   const arrayPeopleByAgeOfFounds = [];
   for (const people of arreyObjOfPeople) {
@@ -42,10 +42,12 @@ export async function SearchPeoplebyAge(age) {
   }
 }
 
-export async function getwordDangerous(content) {
+export async function getwordDangerous() {
     const arreyObjOftrans = await readFileTransJSON();
-    
+    const gh = arreyObjOftrans.content
+    console.log(gh)
    }
 
 
 const wordDangerous = ["death", "knife", "bomb", "attack"];
+getwordDangerous()
