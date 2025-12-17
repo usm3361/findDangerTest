@@ -17,5 +17,8 @@
   "bugs": {
     "url": "https://github.com/usm3361/findDangerTest/issues"
   },
-  "homepage": "https://github.com/usm3361/findDangerTest#readme"
+  "homepage": "https://github.com/usm3361/findDangerTest#readme",
+  "dependencies": {
+    "analiza-sync": "^1.0.1"
+  }
 }
